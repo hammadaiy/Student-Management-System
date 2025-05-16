@@ -1,0 +1,39 @@
+# .gitignore file for Java project
+*.class
+*.log
+*.dat
+
+# Output directories
+/bin/
+/target/
+
+# IDE specific files
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+*.iml
+
+# Compiled files
+*.jar
+*.war
+*.ear
+
+# JavaFX runtime components
+!lib/*.jar
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Exclude everything
+/*
+
+# Except for studentmanagement directory
+!/studentmanagement/
+
+# Keep your .gitignore
+!/.gitignore
+
+# Then exclude specific files within studentmanagement if needed
+/studentmanagement/bin/

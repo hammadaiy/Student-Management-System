@@ -1,0 +1,95 @@
+/* General Styles */
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-background-color: #f4f4f4;
+}
+
+/* Form Title */
+.form-title, .table-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 10 0;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 14px;
+}
+
+/* Text Fields */
+.text-field {
+    -fx-padding: 8px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-border-color: #cccccc;
+    -fx-background-color: white;
+    -fx-margin: 5px 0;
+}
+
+.text-field:focused {
+    -fx-border-color: #4a7ebb;
+}
+
+/* Buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-cursor: hand;
+}
+
+.primary-button {
+    -fx-background-color: #4a7ebb;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover {
+    -fx-background-color: #3a6eab;
+}
+
+.secondary-button {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #333333;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #d0d0d0;
+}
+
+.delete-button {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+}
+
+.delete-button:hover {
+    -fx-background-color: #c0392b;
+}
+
+/* Table Styles */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #4a7ebb;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #bcd4e6;
+}
+
+/* Empty table placeholder */
+.table-view .placeholder .label {
+    -fx-text-fill: #666666;
+    -fx-font-style: italic;
+} 
